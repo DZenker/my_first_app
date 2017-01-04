@@ -9,12 +9,23 @@
             "properties": {
                 "element": {"#": "owner"}
             }
+        },
+        "title": {
+            "prototype": "digit/ui/title.reel",
+            "properties": {
+                "element": {"#": "title"},
+                "contenteditable": "true",
+                "dir": "ltr",
+                "draggable": "true",
+                "value": "This is my first project"
+            }
         }
     }
     </script>
 </head>
 <body>
     <div data-montage-id="owner" class="My-1stComponent">
+        <h1 data-montage-id="title"></h1>
     </div>
 </body>
 </html>
